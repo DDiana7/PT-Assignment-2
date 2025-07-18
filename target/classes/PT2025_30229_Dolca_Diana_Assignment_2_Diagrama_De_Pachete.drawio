@@ -1,0 +1,70 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.16 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.16">
+  <diagram name="Page-1" id="lSjUMZfvMA8hhWLQU78y">
+    <mxGraphModel dx="2001" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="a-Cqv5iyh34GKB-4RarY-5" value="org.example" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-200" y="200" width="730" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="a-Cqv5iyh34GKB-4RarY-6" value="" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;whiteSpace=wrap;" parent="a-Cqv5iyh34GKB-4RarY-5" vertex="1">
+          <mxGeometry width="730" height="69.23076923076923" relative="1" as="geometry">
+            <mxPoint y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a-Cqv5iyh34GKB-4RarY-12" value="Model" style="shape=folder;fontStyle=1;tabWidth=40;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;whiteSpace=wrap;" parent="a-Cqv5iyh34GKB-4RarY-5" vertex="1">
+          <mxGeometry x="160" y="127.5" width="139.62" height="96.54" as="geometry" />
+        </mxCell>
+        <mxCell id="a-Cqv5iyh34GKB-4RarY-11" value="GUI" style="shape=folder;fontStyle=1;tabWidth=40;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;whiteSpace=wrap;" parent="a-Cqv5iyh34GKB-4RarY-5" vertex="1">
+          <mxGeometry x="160" y="538.46" width="139.62" height="93.08" as="geometry" />
+        </mxCell>
+        <mxCell id="a-Cqv5iyh34GKB-4RarY-10" value="Business Logic" style="shape=folder;fontStyle=1;tabWidth=40;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;whiteSpace=wrap;" parent="a-Cqv5iyh34GKB-4RarY-5" vertex="1">
+          <mxGeometry x="420" y="313.46" width="139.62" height="93.08" as="geometry" />
+        </mxCell>
+        <mxCell id="a-Cqv5iyh34GKB-4RarY-14" value="Conține clasa&lt;div&gt;SimulationFrame&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="a-Cqv5iyh34GKB-4RarY-5" vertex="1">
+          <mxGeometry x="25" y="570" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a-Cqv5iyh34GKB-4RarY-15" value="Conține clasele Server și Task" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="a-Cqv5iyh34GKB-4RarY-5" vertex="1">
+          <mxGeometry x="20" y="160" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="a-Cqv5iyh34GKB-4RarY-16" value="&lt;b&gt;Main Class&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="a-Cqv5iyh34GKB-4RarY-5" vertex="1">
+          <mxGeometry x="455" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a-Cqv5iyh34GKB-4RarY-17" value="Conține clasele Scheduler, SelectionPolicy, ShortestQueueStrategy, SimulationManager, Strategy, TimeStrategy" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="a-Cqv5iyh34GKB-4RarY-5" vertex="1">
+          <mxGeometry x="575" y="330" width="145" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="a-Cqv5iyh34GKB-4RarY-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.43;entryY=0.328;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=open;endFill=0;exitX=0.433;exitY=1.021;exitDx=0;exitDy=0;exitPerimeter=0;" parent="a-Cqv5iyh34GKB-4RarY-5" source="a-Cqv5iyh34GKB-4RarY-12" target="a-Cqv5iyh34GKB-4RarY-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220.04" y="409.46" as="sourcePoint" />
+            <mxPoint x="219.04" y="538.46" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a-Cqv5iyh34GKB-4RarY-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=61.54;entryPerimeter=0;dashed=1;endArrow=open;endFill=0;exitX=0;exitY=0;exitDx=139.62;exitDy=63.27;exitPerimeter=0;" parent="a-Cqv5iyh34GKB-4RarY-5" source="a-Cqv5iyh34GKB-4RarY-12" target="a-Cqv5iyh34GKB-4RarY-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360.03999999999996" y="400" as="sourcePoint" />
+            <mxPoint x="360" y="559.54" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="191" />
+              <mxPoint x="320" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a-Cqv5iyh34GKB-4RarY-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=77.31;entryPerimeter=0;dashed=1;endArrow=open;endFill=0;exitX=0;exitY=0;exitDx=139.62;exitDy=61.54;exitPerimeter=0;" parent="a-Cqv5iyh34GKB-4RarY-5" source="a-Cqv5iyh34GKB-4RarY-11" target="a-Cqv5iyh34GKB-4RarY-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410.03999999999996" y="440.46000000000004" as="sourcePoint" />
+            <mxPoint x="410" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a-Cqv5iyh34GKB-4RarY-28" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;Rulează programul&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="a-Cqv5iyh34GKB-4RarY-5" vertex="1">
+          <mxGeometry x="597.5" y="56.25" width="100" height="67.5" as="geometry" />
+        </mxCell>
+        <mxCell id="a-Cqv5iyh34GKB-4RarY-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=139.62;entryDy=45.769999999999996;entryPerimeter=0;dashed=1;endArrow=open;endFill=0;exitX=0.006;exitY=0.853;exitDx=0;exitDy=0;exitPerimeter=0;" parent="a-Cqv5iyh34GKB-4RarY-5" source="a-Cqv5iyh34GKB-4RarY-16" target="a-Cqv5iyh34GKB-4RarY-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="111" as="sourcePoint" />
+            <mxPoint x="514.24" y="239" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

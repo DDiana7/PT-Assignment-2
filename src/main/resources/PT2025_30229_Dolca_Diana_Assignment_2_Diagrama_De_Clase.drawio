@@ -1,0 +1,123 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.16 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.16">
+  <diagram id="qRtRpGWZPbcxYUTewG8A" name="Page-1">
+    <mxGraphModel dx="2702" dy="1747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="o-X8Nn7nuNDAZ42p4tcC-81" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Main&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ Main(): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ main(String[]): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="980" y="1660" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="o-X8Nn7nuNDAZ42p4tcC-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;endSize=15;" parent="1" source="o-X8Nn7nuNDAZ42p4tcC-82" target="o-X8Nn7nuNDAZ42p4tcC-83" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o-X8Nn7nuNDAZ42p4tcC-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;endArrow=diamond;endFill=1;endSize=15;" parent="1" source="o-X8Nn7nuNDAZ42p4tcC-82" target="o-X8Nn7nuNDAZ42p4tcC-84" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o-X8Nn7nuNDAZ42p4tcC-82" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Scheduler&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- servers: List&amp;lt;Server&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- maxNoServers: int&lt;br&gt;- maxTasksPerServer: int&lt;br&gt;- strategy: Strategy&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ Scheduler(int, int):&lt;/p&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ changeStrategy(SelectionPolicy): void&lt;br&gt;+ getServers(): List&amp;lt;Server&amp;gt;&lt;br&gt;+ dispatchTask(Task): void&lt;/p&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="-360" y="1292" width="280" height="238" as="geometry" />
+        </mxCell>
+        <mxCell id="o-X8Nn7nuNDAZ42p4tcC-83" value="&#xa;&lt;p style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;i style=&quot;forced-color-adjust: none;&quot;&gt;&amp;lt;&amp;lt;enumeration&amp;gt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;forced-color-adjust: none;&quot;&gt;&lt;b style=&quot;forced-color-adjust: none;&quot;&gt;SelectionPolicy&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; margin: 0px 0px 0px 4px; line-height: 1.6;&quot;&gt;- SelectionPolicy():&lt;/p&gt;&lt;hr style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; margin: 0px 0px 0px 4px; line-height: 1.6;&quot;&gt;+ SHORTEST_QUEUE:&lt;br style=&quot;forced-color-adjust: none;&quot;&gt;+ SHORTEST_TIME:&lt;/p&gt;&lt;hr style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; margin: 0px 0px 0px 4px; line-height: 1.6;&quot;&gt;+ valueOf(String): SelectionPolicy&lt;br style=&quot;forced-color-adjust: none;&quot;&gt;+ values(): SelectionPolicy[]&lt;/p&gt;&#xa;&#xa;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="1301" width="231" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="o-X8Nn7nuNDAZ42p4tcC-84" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Server&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- waitingPeriod: AtomicInteger&lt;br&gt;- currentTask: Task&lt;br&gt;- tasks: BlockingQueue&amp;lt;Task&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ Server():&lt;/p&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ run(): void&lt;br&gt;+ getCurrentTask(): Task&lt;br&gt;+ addTask(Task): void&lt;br&gt;+ getWaitingPeriod(): int&lt;br&gt;+ getTasks(): Task[]&lt;/p&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="-400" y="333.5" width="239" height="258" as="geometry" />
+        </mxCell>
+        <mxCell id="o-X8Nn7nuNDAZ42p4tcC-85" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ShortestQueueStrategy&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ ShortestQueueStrategy(): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ addTask(List&amp;lt;Server&amp;gt;, Task): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="724" y="650" width="263" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="o-X8Nn7nuNDAZ42p4tcC-86" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;SimulationFrame&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- clientsField: JTextField&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- serviceMaxField: JTextField&lt;br&gt;- arrivalMinField: JTextField&lt;br&gt;- displayArea: JTextArea&lt;br&gt;- arrivalMaxField: JTextField&lt;br&gt;- serviceMinField: JTextField&lt;br&gt;- queuesField: JTextField&lt;br&gt;- startButton: JButton&lt;br&gt;- timeLimitField: JTextField&lt;/p&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- strategyCombo: JComboBox&amp;lt;SelectionPolicy&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ SimulationFrame():&lt;/p&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ showError(String): void&lt;br&gt;+ appendText(String): void&lt;br&gt;- parseIntWithValidation(JTextField): int&lt;br&gt;+ getServiceMax(): int&lt;br&gt;+ getArrivalMin(): int&lt;br&gt;+ getStartButton(): JButton&lt;br&gt;+ getNumClients(): int&lt;br&gt;+ getServiceMin(): int&lt;br&gt;+ clearDisplay(): void&lt;br&gt;+ getNumQueues(): int&lt;br&gt;+ getTimeLimit(): int&lt;br&gt;+ getArrivalMax(): int&lt;/p&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="810" y="830" width="320" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="o-X8Nn7nuNDAZ42p4tcC-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;endSize=15;" parent="1" source="o-X8Nn7nuNDAZ42p4tcC-87" target="o-X8Nn7nuNDAZ42p4tcC-86" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o-X8Nn7nuNDAZ42p4tcC-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;startFill=0;" parent="1" source="o-X8Nn7nuNDAZ42p4tcC-87" target="o-X8Nn7nuNDAZ42p4tcC-83" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o-X8Nn7nuNDAZ42p4tcC-87" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;SimulationManager&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- timeLimit: int&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- numberOfClients: int&lt;br&gt;- maxArrivalTime: int&lt;br&gt;- minProcessingTime: int&lt;br&gt;+ totalServedTasks: int&lt;br&gt;- tasksInQueuesAtTime: Map&amp;lt;Integer, Integer&amp;gt;&lt;br&gt;- minArrivalTime: int&lt;br&gt;- scheduler: Scheduler&lt;br&gt;- maxProcessingTime: int&lt;br&gt;+ currentSimulationTime: int&lt;br&gt;- frame: SimulationFrame&lt;br&gt;+ totalServiceTime: int&lt;br&gt;+ totalWaitingTime: int&lt;br&gt;- selectionPolicy: SelectionPolicy&lt;br&gt;- generatedTasks: List&amp;lt;Task&amp;gt;&lt;br&gt;- maxTasksPerServer: int&lt;br&gt;- logWriter: FileWriter&lt;br&gt;- numberOfServers: int&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ SimulationManager(int, int, int, int, int, int, int, SimulationFrame):&lt;/p&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- logFinalStatistics(): void&lt;br&gt;- generateNRandomTasks(): void&lt;br&gt;- allClientsServed(): boolean&lt;br&gt;- afisareStatus(int): void&lt;br&gt;+ getCurrentSimulationTime(): int&lt;br&gt;+ recordWaitingAndServiceTime(int, int): void&lt;br&gt;+ run(): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="-100" y="1600" width="480" height="638" as="geometry" />
+        </mxCell>
+        <mxCell id="o-X8Nn7nuNDAZ42p4tcC-88" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br/&gt;&lt;b&gt;Strategy&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ addTask(List&amp;lt;Server&amp;gt;, Task): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="334" y="423" width="263" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="o-X8Nn7nuNDAZ42p4tcC-89" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Task&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- ID: int&lt;br&gt;- arrivalTime: int&lt;br&gt;- serviceTime: int&lt;br&gt;- startTime: int&lt;br&gt;- timeAddedToQueue: int&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ Task(int, int, int):&lt;/p&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ setTimeAddedToQueue(int): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ compareTo(Task): int&lt;br&gt;+ getID(): int&lt;br&gt;+ getTimeAddedToQueue(): int&lt;br&gt;+ getServiceTime(): int&lt;br&gt;+ getStartTime(): int&lt;br&gt;+ getArrivalTime(): int&lt;br&gt;+ setStartTime(int): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="51" y="-160" width="239" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="o-X8Nn7nuNDAZ42p4tcC-90" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;TimeStrategy&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ TimeStrategy(): &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ addTask(List&amp;lt;Server&amp;gt;, Task): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="650" width="263" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="o-X8Nn7nuNDAZ42p4tcC-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.825;entryY=1.026;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=block;endFill=0;sourcePerimeterSpacing=0;endSize=15;" parent="1" source="o-X8Nn7nuNDAZ42p4tcC-90" target="o-X8Nn7nuNDAZ42p4tcC-88" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o-X8Nn7nuNDAZ42p4tcC-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.935;entryY=1.012;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=block;endFill=0;targetPerimeterSpacing=0;endSize=15;" parent="1" source="o-X8Nn7nuNDAZ42p4tcC-85" target="o-X8Nn7nuNDAZ42p4tcC-88" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="856" y="610" />
+              <mxPoint x="580" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-X8Nn7nuNDAZ42p4tcC-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.792;entryY=1.005;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=open;endFill=0;endSize=15;exitX=0.632;exitY=-0.018;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1077.52" y="1420" />
+              <mxPoint x="1070.52" y="1420" />
+            </Array>
+            <mxPoint x="1077.6399999999999" y="1658.1999999999998" as="sourcePoint" />
+            <mxPoint x="1070" y="1380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-X8Nn7nuNDAZ42p4tcC-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.003;entryY=0.17;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=open;endFill=0;endSize=15;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" parent="1" source="o-X8Nn7nuNDAZ42p4tcC-81" target="o-X8Nn7nuNDAZ42p4tcC-87" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="621" y="1804" as="sourcePoint" />
+            <mxPoint x="620" y="1520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-X8Nn7nuNDAZ42p4tcC-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=classic;endFill=1;endSize=15;exitX=0.003;exitY=0.218;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="o-X8Nn7nuNDAZ42p4tcC-87" target="o-X8Nn7nuNDAZ42p4tcC-82" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-81" y="1722" as="sourcePoint" />
+            <mxPoint x="-580" y="1720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-220" y="1739" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-X8Nn7nuNDAZ42p4tcC-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.322;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startFill=0;exitX=0.44;exitY=0.001;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="o-X8Nn7nuNDAZ42p4tcC-87" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="141.54" y="1580" as="sourcePoint" />
+            <mxPoint x="109.99800000000008" y="195.68000000000006" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-X8Nn7nuNDAZ42p4tcC-137" value="*" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="170.5" y="230" as="geometry">
+            <mxPoint x="-60" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-X8Nn7nuNDAZ42p4tcC-138" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;1&lt;/blockquote&gt;" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="450" y="1400" as="geometry">
+            <mxPoint x="17" y="129" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-X8Nn7nuNDAZ42p4tcC-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.093;entryY=0.959;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;startFill=0;endSize=15;" parent="1" source="o-X8Nn7nuNDAZ42p4tcC-82" target="o-X8Nn7nuNDAZ42p4tcC-88" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-230" y="1110" />
+              <mxPoint x="359" y="1110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o-X8Nn7nuNDAZ42p4tcC-144" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;*&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-220" y="1252" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o-X8Nn7nuNDAZ42p4tcC-147" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;1&lt;/blockquote&gt;" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;strokeColor=default;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="40" y="1421" as="geometry">
+            <mxPoint x="17" y="129" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="91C4whfllh1SQz-HVUS0-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.803;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=diamond;endFill=1;endSize=15;" parent="1" source="o-X8Nn7nuNDAZ42p4tcC-89" target="o-X8Nn7nuNDAZ42p4tcC-84" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

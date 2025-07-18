@@ -1,0 +1,170 @@
+Time 0
+Waiting clients: (1,16,4); (2,21,2); (3,27,3); (4,28,4); 
+Queue 1: closed
+Queue 2: closed
+
+Time 1
+Waiting clients: (1,16,4); (2,21,2); (3,27,3); (4,28,4); 
+Queue 1: closed
+Queue 2: closed
+
+Time 2
+Waiting clients: (1,16,4); (2,21,2); (3,27,3); (4,28,4); 
+Queue 1: closed
+Queue 2: closed
+
+Time 3
+Waiting clients: (1,16,4); (2,21,2); (3,27,3); (4,28,4); 
+Queue 1: closed
+Queue 2: closed
+
+Time 4
+Waiting clients: (1,16,4); (2,21,2); (3,27,3); (4,28,4); 
+Queue 1: closed
+Queue 2: closed
+
+Time 5
+Waiting clients: (1,16,4); (2,21,2); (3,27,3); (4,28,4); 
+Queue 1: closed
+Queue 2: closed
+
+Time 6
+Waiting clients: (1,16,4); (2,21,2); (3,27,3); (4,28,4); 
+Queue 1: closed
+Queue 2: closed
+
+Time 7
+Waiting clients: (1,16,4); (2,21,2); (3,27,3); (4,28,4); 
+Queue 1: closed
+Queue 2: closed
+
+Time 8
+Waiting clients: (1,16,4); (2,21,2); (3,27,3); (4,28,4); 
+Queue 1: closed
+Queue 2: closed
+
+Time 9
+Waiting clients: (1,16,4); (2,21,2); (3,27,3); (4,28,4); 
+Queue 1: closed
+Queue 2: closed
+
+Time 10
+Waiting clients: (1,16,4); (2,21,2); (3,27,3); (4,28,4); 
+Queue 1: closed
+Queue 2: closed
+
+Time 11
+Waiting clients: (1,16,4); (2,21,2); (3,27,3); (4,28,4); 
+Queue 1: closed
+Queue 2: closed
+
+Time 12
+Waiting clients: (1,16,4); (2,21,2); (3,27,3); (4,28,4); 
+Queue 1: closed
+Queue 2: closed
+
+Time 13
+Waiting clients: (1,16,4); (2,21,2); (3,27,3); (4,28,4); 
+Queue 1: closed
+Queue 2: closed
+
+Time 14
+Waiting clients: (1,16,4); (2,21,2); (3,27,3); (4,28,4); 
+Queue 1: closed
+Queue 2: closed
+
+Time 15
+Waiting clients: (1,16,4); (2,21,2); (3,27,3); (4,28,4); 
+Queue 1: closed
+Queue 2: closed
+
+Time 16
+Waiting clients: (2,21,2); (3,27,3); (4,28,4); 
+Queue 1: (1,16,4); 
+Queue 2: closed
+
+Time 17
+Waiting clients: (2,21,2); (3,27,3); (4,28,4); 
+Queue 1: (1,16,3); 
+Queue 2: closed
+
+Time 18
+Waiting clients: (2,21,2); (3,27,3); (4,28,4); 
+Queue 1: (1,16,2); 
+Queue 2: closed
+
+Time 19
+Waiting clients: (2,21,2); (3,27,3); (4,28,4); 
+Queue 1: (1,16,1); 
+Queue 2: closed
+
+Time 20
+Waiting clients: (2,21,2); (3,27,3); (4,28,4); 
+Queue 1: closed
+Queue 2: closed
+
+Time 21
+Waiting clients: (3,27,3); (4,28,4); 
+Queue 1: (2,21,2); 
+Queue 2: closed
+
+Time 22
+Waiting clients: (3,27,3); (4,28,4); 
+Queue 1: (2,21,1); 
+Queue 2: closed
+
+Time 23
+Waiting clients: (3,27,3); (4,28,4); 
+Queue 1: closed
+Queue 2: closed
+
+Time 24
+Waiting clients: (3,27,3); (4,28,4); 
+Queue 1: closed
+Queue 2: closed
+
+Time 25
+Waiting clients: (3,27,3); (4,28,4); 
+Queue 1: closed
+Queue 2: closed
+
+Time 26
+Waiting clients: (3,27,3); (4,28,4); 
+Queue 1: closed
+Queue 2: closed
+
+Time 27
+Waiting clients: (4,28,4); 
+Queue 1: (3,27,3); 
+Queue 2: closed
+
+Time 28
+Waiting clients: 
+Queue 1: (3,27,2); 
+Queue 2: (4,28,4); 
+
+Time 29
+Waiting clients: 
+Queue 1: (3,27,1); 
+Queue 2: (4,28,3); 
+
+Time 30
+Waiting clients: 
+Queue 1: closed
+Queue 2: (4,28,2); 
+
+Time 31
+Waiting clients: 
+Queue 1: closed
+Queue 2: (4,28,1); 
+
+Time 32
+Waiting clients: 
+Queue 1: closed
+Queue 2: closed
+
+
+--- Simulation Results ---
+Average waiting time: 0.00 seconds
+Average service time: 3.25 seconds
+Peak hour: 28 (with 2 tasks in queues)
